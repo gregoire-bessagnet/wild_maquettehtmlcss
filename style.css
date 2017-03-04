@@ -1,3 +1,95 @@
 body {
     background-color: black;
+    background-image:url(img/middle.jpg), url(img/footer.gif), url(img/title.jpg), url(img/full.jpg), url(img/bg.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat-y, repeat-y;
+    background-position: 55% 0%, 70% 100%, 70% 0%, center top, center;
+    background-size: 30px 768px, 364px 288px, 286px 372px, 720px 403px, 975px 2px;
+    margin: 0 auto;
+    width: 650px;
 }
+
+
+container {
+    color: white;
+}
+
+article {
+    width: 55%;
+    float: left;
+}
+
+nav {
+    padding-top:6.5em;
+}
+
+.link {
+    list-style-image: url("img/star1.jpg");
+    font-size: 0.85em;
+    margin:0.1em;
+}
+
+aside {
+    width: 36%;
+    float: left;
+    margin-left: 50px;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+
+
+.postinfo {
+    font-family: Arial Black, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-size: 0.8em;
+    margin-top: -36px;
+    margin-left: 5px;
+}
+
+
+
+h1, h2 {
+    font-family: Arial Black, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+#logo{
+    text-align: center;
+    width:200px;
+    height: 100px;
+    padding-top: 1.5em;
+    padding-left: 2em;
+    padding-bottom: 10em;
+    }
+
+.logotext { 
+    line-height: 0.74em;
+    letter-spacing: -5px;
+    font-size: 4em;
+    }
+    
+
+
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.75em;
+    line-height: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+strong 
+  {
+    font-weight: bold;
+    color: yellow;
+  }
+
+.blogtitles {
+    border-top: 4px solid yellow;
+    border-bottom: 18px solid yellow;
+    font-size: 1.4em;
+}
+
+
