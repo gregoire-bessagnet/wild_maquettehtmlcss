@@ -2,8 +2,8 @@ body {
     background-color: black;
     background-image:url(img/middle.jpg), url(img/footer.gif), url(img/title.jpg), url(img/full.jpg), url(img/bg.jpg);
     background-repeat: no-repeat, no-repeat, no-repeat, repeat-y, repeat-y;
-    background-position: 55% 0%, 70% 100%, 70% 0%, center top, center;
-    background-size: 30px 768px, 364px 288px, 286px 372px, 720px 403px, 975px 2px;
+    background-position: 58% 0%, 70% 100%, 70% 0%, center top, center;
+    background-origin: content-box;
     margin: 0 auto;
     width: 650px;
 }
@@ -52,6 +52,12 @@ aside {
 h1, h2 {
     font-family: Arial Black, Helvetica, sans-serif;
     text-transform: uppercase;
+}
+
+
+.nomargin {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #logo{
